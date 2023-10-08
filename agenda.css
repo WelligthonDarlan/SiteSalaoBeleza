@@ -1,0 +1,490 @@
+
+*{
+    /* border: 1px solid rgba(255, 0, 0, 0.342); */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* ====================HEADER==================== */
+.header{
+    margin: 0;
+    padding: 0;
+    }
+    .headerContainerInf{
+        /* border: 1px solid rgba(255, 0, 0, 0.342); */
+        margin: 0;
+        padding: 0.5% 3% 0.5% 3%;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        font-family: "lato",sans-serif;
+        /* padding: 7px 40px 7px 40px; */
+    }
+        .headerContentContact{
+            border: 1px solid rgba(0, 128, 0, 0);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            color: black;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        .headerContentContact:hover{
+            border-bottom: 1px solid rgba(0, 0, 0, 0.801);
+            border-radius: 1px;
+        }
+        .headerIconWpp{
+            padding: 0px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        .headerContact{
+            padding: 5px;
+            cursor: pointer;
+        }
+    .headerContainerMenu{
+        /* border: 2px solid rgb(38, 0, 255); */
+        background-repeat: no-repeat;
+        background-color:white;
+        background-size: 100% 150%;
+        box-shadow: 0px 7px 7px 2px rgba(0, 0, 0, 0.199);
+    }
+        .headerContentMenu{
+            /* border: 2px solid rgb(38, 0, 255); */
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.6));
+            box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1);
+            font-family: "lato",sans-serif;
+            transition: 0.4s;
+        }
+        .headerContentMenu:hover{
+            opacity: 1;
+            box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.4);
+        }
+            .headerLogo{
+                width: 160px;
+                height: 160px;
+                cursor: pointer;
+            }
+            .headerBtn{
+                border: 0px solid transparent;
+                background-color: transparent;
+                color: rgba(0, 0, 0, 0.63);
+                font-family: "lato",sans-serif;
+                font-size: 20px;
+                cursor: pointer;
+                transition: 0.2s;
+            }
+            .headerBtn:hover{
+                color: black;
+                font-size: 20px;
+            }
+            .home{
+                border-bottom: 3px solid rgba(0, 0, 0, 0);
+                border-radius: 3px;
+                padding: 5px;
+                line-height: 90px;
+            }
+            .serv{
+                padding: 5px;
+                line-height: 90px;
+                border-bottom: 3px solid rgba(0, 0, 0, 0);
+            }
+/* ====================SECTION==================== */
+.divAgendaIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleAgenda{
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.342);
+}
+.formAgenda{
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'lato', sans-serif;
+}
+.nameContentAgenda{
+    display: flex;
+    flex-direction: row;
+}
+.parNameAgenda{
+    width: 100%;
+    font-size: 20px;
+}
+.inpNameAgenda{
+    width: 100%;
+    border: transparent;
+    border-bottom: 1px solid #818181;
+    outline: none;
+}
+.telContentAgenda{
+    display: flex;
+    flex-direction: row;
+}
+.parTelAgenda{
+    width: 100%;
+    font-size: 20px;
+}
+.inpTelAgenda{
+    width: 100%;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 1px solid #818181;
+    outline: none;
+}
+.datContentAgenda{
+    display: flex;
+    flex-direction: row;
+}
+.parDatAgenda{
+    width: 100%;
+    font-size: 20px;
+}
+.inpDatAgenda{
+    width: 100%;
+    padding: 10px;
+    border: transparent;
+    border-bottom: 1px solid #818181;
+    outline: none;
+}
+.btnFormAgenda{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnAgenda{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+.btnAgenda:hover{
+    background: rgba(23, 168, 35, 0.199);
+    border: 1px solid rgb(6, 88, 27);
+    color: rgb(6, 88, 27);;
+}
+.btnWpp{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+/* ====================FOOTER==================== */
+.footer{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+    box-shadow: 0px -7px 7px 2px rgba(0, 0, 0, 0.199);
+}
+    .footContainerTitle{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: 'lato',sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+    }
+        .footContentTitle{
+            border: 0;
+        }
+            .foottitle{
+                border: 0;
+            }
+    .footContainerContact{
+        /* border: 2px solid blue; */
+        padding: 2% 5% 5% 5%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+        .footContentEmail{
+            border: 0;
+        }  
+            .footEmail{
+                color: rgba(0, 0, 0, 0.7);
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+            }
+    .footContentNetwork{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+    }
+        .footFollow{
+            color: rgba(0, 0, 0, 0.7);
+            font-family: 'Raleway', sans-serif;
+            font-size: 18px;
+        }
+        .footIcons{
+            border: 0;
+        }
+            .iconInsta{
+                width: 30px;
+                height: 30px;
+            }
+            .iconFace{
+                width: 26px;
+                height: 26px;
+            }
+/* RESPONSIVIDADE 1024PX */
+@media (max-width: 1320px){
+    .imgBack{
+        width: 100%;
+        height: 500px;
+        background-image: url(./imagens/modelo1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+    }
+    .escovaContent{
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: row;
+        width: 100%;
+        height: 190px;
+    }
+    .escova{
+        padding: 0%;
+        margin-right: 50px;
+        width: 40%;
+        height: 100%;
+        color: rgba(0, 0, 0, 0.712);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
+   
+}
+/* RESPONSIVIDADE 320PX */
+@media (max-width: 320px){
+    .headerInf{
+        width: 100%;
+        height: 30px;
+        padding: 6px 7px 6px 7px;
+    }
+    .headerEnd{
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+    }
+    .iconWpp{
+        width: 12px;
+        height: 12px;
+    }
+    .cont{
+        font-size: 14px;
+    }
+    .headerMain{
+        height: 80px;
+    }
+    .imgBack{
+        width: 100%;
+        height: 250px;
+        background-image: url(./imagens/modelo1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+    }
+    .headerBtn{
+        font-size: 18px;
+        line-height: 70px;
+    }
+    .headerLogo{
+        width: 100px;
+        height: 80px;
+    }
+    .escovaContent{
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        flex-direction: row;
+        width: 100%;
+        height: 190px;
+    }
+    .escova{
+        padding: 0%;
+        margin: 0%;
+        width: 50%;
+        height: 100px;
+        color: rgba(0, 0, 0, 0.712);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+        text-align: center;
+    }
+    i{
+        font-size: 18px;
+    }
+    .agendaContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .agendaP{
+        text-align: center;
+        width: 90%;
+        font-size: 18px;
+    }
+    .agendaI{
+        margin: 5px;
+        width: 80px;
+        height: 80px;
+    }
+    /* section section section section section section section */
+    .sectionAgenda{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .divAgendaIcon{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .titleAgenda{
+        margin: 30px 0px 30px 0px;
+        padding: 5px;
+        font-size: 30px;
+    }
+    .formAgenda{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    .nameContentAgenda{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .parNameAgenda{
+        width: 100%;
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px 0px 5px 0px;
+    }
+    .inpNameAgenda{
+        padding: 0%;
+    }
+    .telContentAgenda{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .parTelAgenda{
+        width: 100%;
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px 0px 5px 0px;
+    }
+    .inpTelAgenda{
+        padding: 0%;
+    }
+    .datContentAgenda{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .parDatAgenda{
+        width: 100%;
+        font-size: 18px;
+        margin: 0px;
+        padding: 5px 0px 5px 0px;
+    }
+    .inpDatAgenda{
+        padding: 0%;
+    }
+    .btnFormAgenda{
+        width: 100%;
+        padding: 0%;
+    }
+    .btnAgenda{
+        margin: 15px 0px 45px 0px;
+    }
+    /* 320px footer footer footer footer footer footer footer */
+    .footerAgenda{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footerH1ContainerAgenda{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .footerContent2Agenda{
+        padding: 0%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footerContactAgenda{
+        padding: 0%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
